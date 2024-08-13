@@ -1,0 +1,132 @@
+.container {
+  background-image: url('/src/assets/image.jpg');
+  max-width: 1200px;
+  min-width: 800px;
+  min-height: 350px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #48d1cc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-position: center;
+  background-size: cover;
+}
+
+.titleBlue {
+  color: blue;
+}
+
+.titleYellow {
+  color: rgb(126, 126, 0);
+}
+
+.titleBlack {
+  color: black;
+}
+
+.titleGreen {
+  color: green;
+}
+
+.titleRed {
+  color: red;
+}
+.title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(24, 24, 161);
+  margin-bottom: 30px;
+}
+
+.inputGroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-right: 10px;
+  margin-top: auto;
+}
+
+.inputDiv label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.inputDiv input {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.formButton {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.formButton button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #ffe16f;
+  border: none;
+  color: #060606;
+  font-weight: bold;
+}
+
+.table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  border-radius: 12px;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+}
+.table tr {
+  background-color: azure;
+}
+
+.table th {
+  background-color: #06325e;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table button {
+  padding: 5px 10px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #ff075e;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.noMedalpTag {
+  font-weight: bold;
+  font-size: 19px;
+}
