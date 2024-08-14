@@ -3,7 +3,10 @@ import React from 'react';
 const MedalList = ({ countries, setCountries }) => {
   // 국가 삭제
   const handleDeleteCountry = (id) => {
-    setCountries(countries.filter((item) => item.id !== id));
+    if (confirm('정말 삭제하실건가요?')) {
+      alert('삭제했습니다.');
+      setCountries(countries.filter((item) => item.id !== id));
+    }
   };
 
   return (
